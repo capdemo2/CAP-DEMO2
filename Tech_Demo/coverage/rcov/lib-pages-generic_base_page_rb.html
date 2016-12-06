@@ -27,15 +27,15 @@
             <td class="left_align"><a href="lib-pages-generic_base_page_rb.html">lib/pages/generic_base_page.rb</a></td>
             <td class='right_align'><tt>53</tt></td>
             <td class='right_align'><tt>26</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>88.68%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>83.02%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:89px"></div>
-        <div class="uncovered" style="width:11px"></div>
+        <div class="covered" style="width:83px"></div>
+        <div class="uncovered" style="width:17px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>76.92%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>65.38%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:77px"></div>
-        <div class="uncovered" style="width:23px"></div>
+        <div class="covered" style="width:65px"></div>
+        <div class="uncovered" style="width:35px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -68,10 +68,10 @@
         <tr class="inferred">
           <td><pre><a name="line7">7</a>     # respond_to? is a Ruby method for detecting whether the class has a particular method on it</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line8">8</a>     expected_element if respond_to? :expected_element</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line9">9</a>     has_expected_title? if respond_to? :has_expected_title?</pre></td>
         </tr>
         <tr class="inferred">
@@ -83,7 +83,7 @@
         <tr class="marked">
           <td><pre><a name="line12">12</a>   def method_missing sym, *args, &amp;block</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line13">13</a>      @browser.send sym, *args, &amp;block</pre></td>
         </tr>
         <tr class="inferred">
@@ -98,7 +98,7 @@
         <tr class="marked">
           <td><pre><a name="line17">17</a>     define_method &#39;goto&#39; do</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line18">18</a>       @browser.goto url</pre></td>
         </tr>
         <tr class="inferred">
@@ -179,7 +179,7 @@
         <tr class="inferred">
           <td><pre><a name="line44">44</a>       #yield self enters block, associated with method call, passing current object as argument to the block</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line45">45</a>       yield self</pre></td>
         </tr>
         <tr class="inferred">
@@ -212,7 +212,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2016-12-05 21:54:20 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2016-12-06 14:56:18 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>
