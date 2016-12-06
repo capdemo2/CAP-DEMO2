@@ -1,8 +1,6 @@
 class MacysHomePage<GenericBasePage
 
-
   page_url "http://www1.macys.com/"
-
 
   element(:my_account){|b|b.link(id:"href_myAccountHeader")}
   element(:create_btn){|b|b.span(text:"create")}
@@ -67,6 +65,30 @@ class MacysHomePage<GenericBasePage
  def click_on_sign_out
    sign_out.when_present.click
  end
+
+
+
+
+  element(:macys_home){|b|b.link(text:"HOME")}
+
+  element(:bed_and_bath){|b|b.link(text:"BED & BATH")}
+
+  element(:macys_women){|b|b.link(id:"WOMEN")}
+
+  element(:macys_men){|b|b.link(id:"MEN")}
+
+
+
+
+
+
+
+  element(:macys_kitchen){|b|b.link(text:"Kitchen")}
+  element(:macys_comforters){|b|b.link(text:"Comforters")}
+  element(:macys_tops){|b|b.link(text:"Tops")}
+  element(:macys_active){|b|b.link(text:"Active")}
+
+
 
 
 

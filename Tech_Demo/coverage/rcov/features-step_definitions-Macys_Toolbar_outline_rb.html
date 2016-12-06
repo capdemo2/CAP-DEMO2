@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>lib/pages/random.rb</title>
+    <title>features/step_definitions/Macys_Toolbar_outline.rb</title>
     <link href="./assets/0.2.3/screen.css" media="all" rel="stylesheet" type="text/css" />
     <link href="./assets/0.2.3/print.css" media="print" rel="stylesheet" type="text/css" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1>Tech demo C0 Coverage Information - Simploco - RCov</h1>
-    <h2>lib/pages/random.rb</h2>
+    <h2>features/step_definitions/Macys_Toolbar_outline.rb</h2>
 
     <div class="report_table_wrapper">
       <table class='report' id='report_table'>
@@ -24,18 +24,18 @@
         </thead>
         <tbody>
           <tr>
-            <td class="left_align"><a href="lib-pages-random_rb.html">lib/pages/random.rb</a></td>
-            <td class='right_align'><tt>9</tt></td>
-            <td class='right_align'><tt>0</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+            <td class="left_align"><a href="features-step_definitions-Macys_Toolbar_outline_rb.html">features/step_definitions/Macys_Toolbar_outline.rb</a></td>
+            <td class='right_align'><tt>12</tt></td>
+            <td class='right_align'><tt>4</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>83.33%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:100px"></div>
-        <div class="uncovered" style="width:0px"></div>
+        <div class="covered" style="width:83px"></div>
+        <div class="uncovered" style="width:17px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:100px"></div>
-        <div class="uncovered" style="width:0px"></div>
+        <div class="covered" style="width:50px"></div>
+        <div class="uncovered" style="width:50px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -50,32 +50,41 @@
 
     <table class="details">
       <tbody>
-        <tr class="inferred">
-          <td><pre><a name="line2">2</a> </pre></td>
+        <tr class="marked">
+          <td><pre><a name="line2">2</a> Then(/^User Hover Over (.*)$/) do |toolbar|</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line3">3</a> </pre></td>
+          <td><pre><a name="line3">3</a>   #on(MacysHomePage).(toolbar).when_present.click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line4">4</a> # @a1=rand(0..2000)</pre></td>
+          <td><pre><a name="line4">4</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line5">5</a>   @browser.link(text:toolbar).when_present.click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line5">5</a> # email=&quot;jhon_smith&quot;+&quot;#{@a1}&quot;+&quot;@gmail.com&quot;</pre></td>
+          <td><pre><a name="line6">6</a> end</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line6">6</a> #</pre></td>
+          <td><pre><a name="line7">7</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line8">8</a> Then(/^User select (.*) form the menu$/) do |items|</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line7">7</a> # puts email</pre></td>
+          <td><pre><a name="line9">9</a> </pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line8">8</a> # a1=rand(0..2000)</pre></td>
+          <td><pre><a name="line10">10</a>   #on(MacysHomePage).(items).when_present.click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line9">9</a> # email=&quot;jhon_smith#{a1}@gmail.com&quot;</pre></td>
+          <td><pre><a name="line11">11</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line12">12</a>   @browser.li(text:items).when_present(60).click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line10">10</a> # puts &quot;Printing Email #{email}&quot;</pre></td>
+          <td><pre><a name="line13">13</a> end</pre></td>
         </tr>
       </tbody>
     </table>

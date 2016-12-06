@@ -1,6 +1,5 @@
 Feature: Account Registration
 
-
   Scenario: Registration
     Given User navigate to the Macys Home Page
     Then User click on the My Account link
