@@ -25,17 +25,17 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="features-step_definitions-Registration _rb.html">features/step_definitions/Registration .rb</a></td>
-            <td class='right_align'><tt>26</tt></td>
-            <td class='right_align'><tt>13</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+            <td class='right_align'><tt>31</tt></td>
+            <td class='right_align'><tt>15</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>96.77%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:100px"></div>
-        <div class="uncovered" style="width:0px"></div>
+        <div class="covered" style="width:97px"></div>
+        <div class="uncovered" style="width:3px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>93.33%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:100px"></div>
-        <div class="uncovered" style="width:0px"></div>
+        <div class="covered" style="width:93px"></div>
+        <div class="uncovered" style="width:7px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -53,7 +53,7 @@
         <tr class="marked">
           <td><pre><a name="line2">2</a> Given(/^User navigate to the Macys Home Page$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line3">3</a>   visit MacysHomePage</pre></td>
         </tr>
         <tr class="inferred">
@@ -123,15 +123,30 @@
           <td><pre><a name="line25">25</a> Then(/^user verifies that Registration is completed$/) do</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line26">26</a>   on(MacysHomePage).click_create_btn</pre></td>
+          <td><pre><a name="line26">26</a>   on(MacysHomePage).click_no_thanks_button</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line27">27</a> end</pre></td>
+          <td><pre><a name="line27">27</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line28">28</a>   on(MacysHomePage).verify_welcome_message</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line29">29</a>   on(MacysHomePage).click_on_sign_out</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line30">30</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line31">31</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line32">32</a> end</pre></td>
         </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2016-12-05 15:54:30 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2016-12-05 21:54:20 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

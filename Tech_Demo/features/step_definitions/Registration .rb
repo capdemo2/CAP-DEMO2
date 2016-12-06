@@ -22,5 +22,10 @@ And(/^user completes registration$/) do
 end
 
 Then(/^user verifies that Registration is completed$/) do
-  on(MacysHomePage).click_create_btn
+  on(MacysHomePage).click_no_thanks_button
+
+  on(MacysHomePage).verify_welcome_message
+  on(MacysHomePage).click_on_sign_out
+
+
 end

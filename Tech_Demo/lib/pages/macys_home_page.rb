@@ -14,10 +14,18 @@ class MacysHomePage<GenericBasePage
   element(:date_drop_down){|b|b.select(id:"day")}
   element(:year_drop_down){|b|b.select(id:"year")}
   element(:create_profile_btn){|b|b.button(id:"createProfileBtn")}
+  element(:welcome_message){|b|b.link(id:"globalMastheadUserSalutation")}
+  element(:sign_out){|b|b.link(id:"globalMastheadSignIn")}
+  element(:no_thanks_button){|b|b.button(id:"overalyCancelBtn")}
+
+
+  def click_no_thanks_button
+    no_thanks_button.when_present.click
+  end
 
 
   def click_on_my_account_link
-    my_account.when_present(60).click
+    my_account.when_present.click
   end
 
   def click_create_btn
@@ -25,11 +33,10 @@ class MacysHomePage<GenericBasePage
   end
 
   def enter_random_email
-    # @a1=rand(0..2000)''
-    # @email="jhon_smith"+"#{@a1}"+"@gmail.com"
-    # puts "Printing Email #{@email}"
-    #
-    email_text.when_present.set("bal-tal@gmail.com")
+    a1=rand(100..100000)
+    email="jhon_smith#{a1}@gmail.com"
+    puts "Printing Email #{email}"
+    email_text.when_present.set("#{email}")
   end
 
 
@@ -52,10 +59,14 @@ class MacysHomePage<GenericBasePage
 
 
 
+  def verify_welcome_message
+    puts"#{welcome_message.when_present.text}"
+  end
 
 
-
-
+ def click_on_sign_out
+   sign_out.when_present.click
+ end
 
 
 
