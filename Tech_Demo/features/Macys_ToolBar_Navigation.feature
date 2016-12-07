@@ -5,9 +5,16 @@ Feature: Macy's tool bar navigation
     Then User Hover Over <toolbar>
     Then User select <items> form the menu
 
+
     Examples:
     |toolbar|items|
-    |HOME   |//*[@id="firstNavSubCat"]/li[2]/ul/li[4]/a|
-#    |BED & BATH|Comforters|
-#    |WOMEN       |Tops      |
-#    |MEN         |Active    |
+    |BED & BATH|Bed in a Bag|
+    |WOMEN       |Blazers      |
+    |MEN         |Golf Shop    |
+    |JUNIORS     |Graphic Clothing     |
+    |BEAUTY      |CHANEL    |
+    |SHOES       |Boots     |
+    |JEWELRY     |Diamonds     |
+    |SHOES       |Boots     |
+    |KIDS        |Baby Girl (0-24 months)    |
+    |HANDBAGS    |Designer Handbags     |
