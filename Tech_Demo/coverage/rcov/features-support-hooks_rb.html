@@ -27,15 +27,15 @@
             <td class="left_align"><a href="features-support-hooks_rb.html">features/support/hooks.rb</a></td>
             <td class='right_align'><tt>67</tt></td>
             <td class='right_align'><tt>30</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>77.61%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>85.07%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:78px"></div>
-        <div class="uncovered" style="width:22px"></div>
+        <div class="covered" style="width:85px"></div>
+        <div class="uncovered" style="width:15px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>66.67%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:50px"></div>
-        <div class="uncovered" style="width:50px"></div>
+        <div class="covered" style="width:67px"></div>
+        <div class="uncovered" style="width:33px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -152,19 +152,19 @@
         <tr class="marked">
           <td><pre><a name="line35">35</a>   if scenario.failed?</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line36">36</a>       time = Time.now.strftime(&quot;%Y-%m-%d_%H-%M-%S&quot;)</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line37">37</a>     Dir::mkdir(&#39;screenshots&#39;) if not File.directory?(&#39;screenshots&#39;)</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line38">38</a>     screenshot = &quot;./screenshots/FAILED_#{scenario.name.gsub(&#39; &#39;,&#39;_&#39;).gsub(/[^0-9A-Za-z_]/, &#39;&#39;)}.png&quot;</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line39">39</a>     @browser.driver.save_screenshot(screenshot)</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line40">40</a>     embed screenshot, &#39;image/png&#39;</pre></td>
         </tr>
         <tr class="inferred">
@@ -254,7 +254,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2016-12-06 22:40:36 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2016-12-06 23:06:35 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

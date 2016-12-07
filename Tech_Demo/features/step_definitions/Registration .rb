@@ -26,3 +26,15 @@ Then(/^user verifies that Registration is completed$/) do
   on(MacysHomePage).verify_welcome_message
   on(MacysHomePage).click_on_sign_out
 end
+
+Then(/^User click on Sign In link$/) do
+  on(MacysHomePage).click_on_sign_in
+end
+
+And(/^User type invalid credentials$/) do
+  on(MacysHomePage).type_credentials
+end
+
+Then(/^User clicks on SignIn Button$/) do
+  on(MacysHomePage).click_on_sign_in_button
+end

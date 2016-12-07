@@ -32,7 +32,10 @@ class MacysHomePage<GenericBasePage
 
   def enter_random_email
     a1=rand(100..100000)
-    email="jhon_smith#{a1}@gmail.com"
+    #email="jhon_smith#{a1}@gmail.com"
+    random_string = ('a'..'z').to_a.shuffle.first(4).join
+    email=random_string+"@gmail.com"
+
     puts "Printing Email #{email}"
     email_text.when_present.set("#{email}")
   end
@@ -90,8 +93,24 @@ class MacysHomePage<GenericBasePage
 
 
 
+  element(:sign_in){|b|b.link(text:"sign in")}
+  element(:sign_in_email){|b|b.link(id:"email")}
+  element(:sign_in_password){|b|b.link(id:"password")}
+  element(:sign_in_buton){|b|b.button(text:"signInBtn")}
+
+  def click_on_sign_in
+    sign_in.when_present.click
+  end
+
+ def type_credentials
+   sign_in_email.when_present.set("abdc@gmail.com")
+   sign_in_password.when_present.set("test1234")
+ end
 
 
+  def click_on_sign_in_button
+    sign_in_buton.when_present.click
+  end
 
 
 

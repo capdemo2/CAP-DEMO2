@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a231b9d-1db2-499f-9596-cc9a357dcad3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Item_selections_from_the_Macys_tool_bar_Examples_1.png" afterPath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Item_selections_from_the_Macys_tool_bar_Examples_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Item_selections_from_the_Macys_tool_bar_Examples_3.png" afterPath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Item_selections_from_the_Macys_tool_bar_Examples_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Item_selections_from_the_Macys_tool_bar_Examples_4.png" afterPath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Item_selections_from_the_Macys_tool_bar_Examples_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tech_Demo/features/SignIn_Negative_scenario.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Registration.png" afterPath="$PROJECT_DIR$/Tech_Demo/screenshots/FAILED_Registration.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CAP-DEMO2.iml" afterPath="$PROJECT_DIR$/.idea/CAP-DEMO2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/Gemfile" afterPath="$PROJECT_DIR$/Tech_Demo/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/.last_run.json" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/.last_run.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/.resultset.json" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/.resultset.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/assets/0.10.0/application.css" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/assets/0.10.0/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/assets/0.10.0/application.js" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/assets/0.10.0/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/index.html" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/jquery-1.3.2.min.js" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/jquery-1.3.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/jquery.tablesorter.min.js" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/jquery.tablesorter.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/print.css" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/rcov.js" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/rcov.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/screen.css" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/assets/0.2.3/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/features-step_definitions-Macys_Sauce_labs_rb.html" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/features-step_definitions-Macys_Sauce_labs_rb.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/features-step_definitions-Macys_Toolbar_outline_rb.html" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/features-step_definitions-Macys_Toolbar_outline_rb.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/features-step_definitions-Registration _rb.html" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/features-step_definitions-Registration _rb.html" />
@@ -27,9 +18,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/lib-pages-generic_base_page_rb.html" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/lib-pages-generic_base_page_rb.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/lib-pages-macys_home_page_rb.html" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/lib-pages-macys_home_page_rb.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/lib-pages-random_rb.html" afterPath="$PROJECT_DIR$/Tech_Demo/coverage/rcov/lib-pages-random_rb.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" afterPath="$PROJECT_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Macys_Toolbar_outline.rb" afterPath="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Macys_Toolbar_outline.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/features/support/env.rb" afterPath="$PROJECT_DIR$/Tech_Demo/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Registration .rb" afterPath="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Registration .rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/lib/pages/macys_home_page.rb" afterPath="$PROJECT_DIR$/Tech_Demo/lib/pages/macys_home_page.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/lib/pages/random.rb" afterPath="$PROJECT_DIR$/Tech_Demo/lib/pages/random.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tech_Demo/reports.json" afterPath="$PROJECT_DIR$/Tech_Demo/reports.json" />
@@ -48,6 +37,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration__5_.coverage" NAME="Scenario: Registration (5) Coverage Results" MODIFIED="1481041793557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration__4_.coverage" NAME="Scenario: Registration (4) Coverage Results" MODIFIED="1480992762175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
+    <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__SignIn.coverage" NAME="Scenario: SignIn Coverage Results" MODIFIED="1481083114414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Macys_Account_Registration_feature.coverage" NAME="Macys_Account_Registration.feature Coverage Results" MODIFIED="1481054098831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration__3_.coverage" NAME="Scenario: Registration (3) Coverage Results" MODIFIED="1481053612921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Item_selections_from_the_Macy_s_tool_bar__3_.coverage" NAME="Scenario: Item selections from the Macy's tool bar (3) Coverage Results" MODIFIED="1481080926266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
@@ -55,10 +45,11 @@
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration__2_.coverage" NAME="Scenario: Registration (2) Coverage Results" MODIFIED="1481052758608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Item_selections_from_the_Macy_s_tool_bar__2_.coverage" NAME="Scenario: Item selections from the Macy's tool bar (2) Coverage Results" MODIFIED="1481081197664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Item_selections_from_the_Macy_s_tool_bar.coverage" NAME="Scenario: Item selections from the Macy's tool bar Coverage Results" MODIFIED="1481081455461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
-    <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration__1_.coverage" NAME="Scenario: Registration (1) Coverage Results" MODIFIED="1481076203138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
     <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Item_selections_from_the_Macy_s_tool_bar__1_.coverage" NAME="Scenario: Item selections from the Macy's tool bar (1) Coverage Results" MODIFIED="1481079683066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
-    <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration.coverage" NAME="Scenario: Registration Coverage Results" MODIFIED="1481053993646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
-    <SUITE FILE_PATH="coverage/CAP-DEMO2@random.coverage" NAME="random Coverage Results" MODIFIED="1481079291494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo/lib/pages" MODULE_NAME="CAP-DEMO2" />
+    <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration__1_.coverage" NAME="Scenario: Registration (1) Coverage Results" MODIFIED="1481082695803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
+    <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__SignIn__1_.coverage" NAME="Scenario: SignIn (1) Coverage Results" MODIFIED="1481083576796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
+    <SUITE FILE_PATH="coverage/CAP-DEMO2@Scenario__Registration.coverage" NAME="Scenario: Registration Coverage Results" MODIFIED="1481082484623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo" MODULE_NAME="CAP-DEMO2" />
+    <SUITE FILE_PATH="coverage/CAP-DEMO2@random.coverage" NAME="random Coverage Results" MODIFIED="1481082561274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tech_Demo/lib/pages" MODULE_NAME="CAP-DEMO2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -72,58 +63,28 @@
       <file leaf-file-name="Macys_Account_Registration.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tech_Demo/features/Macys_Account_Registration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="88">
+              <caret line="4" column="42" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Macys_ToolBar_Navigation.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Macys_Toolbar_outline.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tech_Demo/features/step_definitions/Macys_Toolbar_outline.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="macys_home_page.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="macys_home_page.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tech_Demo/lib/pages/macys_home_page.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tech_Demo/lib/pages/random.rb">
+      <file leaf-file-name="SignIn_Negative_scenario.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tech_Demo/features/SignIn_Negative_scenario.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Macys_Sauce_labs.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tech_Demo/features/step_definitions/Macys_Sauce_labs.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -132,8 +93,8 @@
       <file leaf-file-name="Registration .rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tech_Demo/features/step_definitions/Registration .rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="286">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -150,14 +111,15 @@
         <option value="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Macys_Sauce_labs.rb" />
         <option value="$PROJECT_DIR$/Tech_Demo/features/Macys_Sauce_Labs_Example.feature" />
         <option value="$PROJECT_DIR$/Tech_Demo/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Registration .rb" />
         <option value="$PROJECT_DIR$/Tech_Demo/features/Macys_Account_Registration.feature" />
-        <option value="$PROJECT_DIR$/Tech_Demo/lib/pages/macys_home_page.rb" />
-        <option value="$PROJECT_DIR$/Tech_Demo/lib/pages/random.rb" />
         <option value="$PROJECT_DIR$/Tech_Demo/Gemfile" />
         <option value="$PROJECT_DIR$/Tech_Demo/features/support/env.rb" />
         <option value="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Macys_Toolbar_outline.rb" />
         <option value="$PROJECT_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" />
+        <option value="$PROJECT_DIR$/Tech_Demo/lib/pages/random.rb" />
+        <option value="$PROJECT_DIR$/Tech_Demo/features/SignIn_Negative_scenario.feature" />
+        <option value="$PROJECT_DIR$/Tech_Demo/lib/pages/macys_home_page.rb" />
+        <option value="$PROJECT_DIR$/Tech_Demo/features/step_definitions/Registration .rb" />
       </list>
     </option>
   </component>
@@ -342,8 +304,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Item selections from the Macy's tool bar (4)">
-    <configuration default="false" name="Scenario: Item selections from the Macy's tool bar (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+  <component name="RunManager" selected="Cucumber.Scenario: SignIn (1)">
+    <configuration default="false" name="Scenario: Registration" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="CAP-DEMO2" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -360,9 +322,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/Macys_Account_Registration.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Item selections from the Macy\'s tool bar$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Registration$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -375,7 +337,22 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Item selections from the Macy's tool bar (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="random" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="CAP-DEMO2" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Tech_Demo/lib/pages" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/lib/pages/random.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Registration (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="CAP-DEMO2" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -392,9 +369,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/Macys_Account_Registration.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Item selections from the Macy\'s tool bar$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Registration$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -407,7 +384,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Item selections from the Macy's tool bar (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="Scenario: SignIn" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="CAP-DEMO2" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -424,9 +401,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/SignIn_Negative_scenario.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Item selections from the Macy\'s tool bar$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^SignIn$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -439,7 +416,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
-    <configuration default="false" name="Scenario: Item selections from the Macy's tool bar" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="Scenario: SignIn (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="CAP-DEMO2" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -456,41 +433,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/SignIn_Negative_scenario.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Item selections from the Macy\'s tool bar$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: Item selections from the Macy's tool bar (4)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="CAP-DEMO2" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/Tech_Demo" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/Tech_Demo/features/Macys_ToolBar_Navigation.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Item selections from the Macy\'s tool bar$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^SignIn$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -618,24 +563,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Registration" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.random" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Registration (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: SignIn" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: SignIn (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Item selections from the Macy's tool bar (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: SignIn (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: SignIn" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Registration (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.random" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Registration" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -646,25 +594,13 @@
       <updated>1480989072795</updated>
       <workItem from="1480989074108" duration="5233000" />
       <workItem from="1481041108711" duration="7029000" />
-      <workItem from="1481075246742" duration="5057000" />
+      <workItem from="1481075246742" duration="6664000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Item_selections_from_the_Macy's_tool_bar - 2016.12.06 at 20h 59m 43s.xml">
-      <configuration name="Scenario: Item selections from the Macy's tool bar" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Item_selections_from_the_Macy's_tool_bar - 2016.12.06 at 22h 36m 34s.xml">
       <configuration name="Scenario: Item selections from the Macy's tool bar" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Item_selections_from_the_Macy's_tool_bar_(1) - 2016.12.06 at 22h 01m 41s.xml">
-      <configuration name="Scenario: Item selections from the Macy's tool bar (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Item_selections_from_the_Macy's_tool_bar_(2) - 2016.12.06 at 20h 51m 45s.xml">
-      <configuration name="Scenario: Item selections from the Macy's tool bar (2)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Item_selections_from_the_Macy's_tool_bar_(2) - 2016.12.06 at 20h 53m 54s.xml">
-      <configuration name="Scenario: Item selections from the Macy's tool bar (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__Item_selections_from_the_Macy's_tool_bar_(2) - 2016.12.06 at 22h 25m 58s.xml">
       <configuration name="Scenario: Item selections from the Macy's tool bar (2)" configurationId="CucumberRunConfigurationType" />
@@ -678,23 +614,35 @@
     <history-entry file="Scenario__Item_selections_from_the_Macy's_tool_bar_(4) - 2016.12.06 at 22h 40m 36s.xml">
       <configuration name="Scenario: Item selections from the Macy's tool bar (4)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Registration_(1) - 2016.12.06 at 21h 03m 58s.xml">
+    <history-entry file="Scenario__Registration - 2016.12.06 at 22h 48m 42s.xml">
+      <configuration name="Scenario: Registration" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Registration_(1) - 2016.12.06 at 22h 51m 04s.xml">
       <configuration name="Scenario: Registration (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Registration_(1) - 2016.12.06 at 22h 52m 44s.xml">
+      <configuration name="Scenario: Registration (1)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__SignIn - 2016.12.06 at 22h 58m 56s.xml">
+      <configuration name="Scenario: SignIn" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__SignIn_(1) - 2016.12.06 at 23h 06m 35s.xml">
+      <configuration name="Scenario: SignIn (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17319000" />
+    <option name="totallyTimeSpent" value="18926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2535668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2535668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.50259405" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.49740598" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49740598" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -844,38 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tech_Demo/features/Macys_Account_Registration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tech_Demo/features/step_definitions/Registration .rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tech_Demo/lib/pages/random.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tech_Demo/lib/pages/macys_home_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tech_Demo/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -904,6 +820,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tech_Demo/lib/pages/random.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tech_Demo/features/Macys_Account_Registration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="42" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tech_Demo/features/step_definitions/Registration .rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tech_Demo/features/SignIn_Negative_scenario.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tech_Demo/lib/pages/macys_home_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
