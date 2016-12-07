@@ -25,17 +25,17 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="features-step_definitions-Macys_Toolbar_outline_rb.html">features/step_definitions/Macys_Toolbar_outline.rb</a></td>
-            <td class='right_align'><tt>12</tt></td>
-            <td class='right_align'><tt>4</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>83.33%</tt></div>
+            <td class='right_align'><tt>16</tt></td>
+            <td class='right_align'><tt>6</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:83px"></div>
-        <div class="uncovered" style="width:17px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:50px"></div>
-        <div class="uncovered" style="width:50px"></div>
+        <div class="covered" style="width:100px"></div>
+        <div class="uncovered" style="width:0px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -54,42 +54,54 @@
           <td><pre><a name="line2">2</a> Then(/^User Hover Over (.*)$/) do |toolbar|</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line3">3</a>   #on(MacysHomePage).(toolbar).when_present.click</pre></td>
+          <td><pre><a name="line3">3</a> #  on(MacysHomePage).(toolbar).when_present.hover</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line4">4</a> </pre></td>
         </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line5">5</a>   @browser.link(text:toolbar).when_present.click</pre></td>
-        </tr>
         <tr class="inferred">
-          <td><pre><a name="line6">6</a> end</pre></td>
-        </tr>
-        <tr class="inferred">
-          <td><pre><a name="line7">7</a> </pre></td>
+          <td><pre><a name="line5">5</a>  # @browser.link(text:toolbar).when_present.click</pre></td>
         </tr>
         <tr class="marked">
-          <td><pre><a name="line8">8</a> Then(/^User select (.*) form the menu$/) do |items|</pre></td>
+          <td><pre><a name="line6">6</a>   @browser.link(text:toolbar).when_present.hover</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line7">7</a>   sleep 3</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line8">8</a> end</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line9">9</a> </pre></td>
         </tr>
-        <tr class="inferred">
-          <td><pre><a name="line10">10</a>   #on(MacysHomePage).(items).when_present.click</pre></td>
+        <tr class="marked">
+          <td><pre><a name="line10">10</a> Then(/^User select (.*) form the menu$/) do |items|</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line11">11</a> </pre></td>
         </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line12">12</a>   @browser.li(text:items).when_present(60).click</pre></td>
+        <tr class="inferred">
+          <td><pre><a name="line12">12</a>   #on(MacysHomePage).(items).when_present.click</pre></td>
         </tr>
         <tr class="inferred">
-          <td><pre><a name="line13">13</a> end</pre></td>
+          <td><pre><a name="line13">13</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line14">14</a>   @browser.li(text:items).when_present(60).click</pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line15">15</a>   sleep 5</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line16">16</a> end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line17">17</a> </pre></td>
         </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2016-12-06 14:56:18 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2016-12-06 22:40:36 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

@@ -19,7 +19,8 @@ require 'macys_reusable_function'
 
 require 'simplecov'
 require 'simplecov-rcov'
-
+#require 'name-generator'
+#require 'faker'
 
 
 SimpleCov.formatters = [

@@ -83,7 +83,7 @@ class MacysHomePage<GenericBasePage
 
 
 
-  element(:macys_kitchen){|b|b.link(text:"Kitchen")}
+  element(:macys_kitchen){|b|b.link(text:"Kitchen",index:40)}
   element(:macys_comforters){|b|b.link(text:"Comforters")}
   element(:macys_tops){|b|b.link(text:"Tops")}
   element(:macys_active){|b|b.link(text:"Active")}
