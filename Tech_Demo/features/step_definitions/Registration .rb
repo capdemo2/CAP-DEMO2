@@ -12,7 +12,7 @@ end
 
 Then(/^user fills out all the information to create account$/) do
   on(MacysHomePage).enter_profile_info
-  on(MacysHomePage).enter_random_email
+
 
 
 end
@@ -37,4 +37,8 @@ end
 
 Then(/^User clicks on SignIn Button$/) do
   on(MacysHomePage).click_on_sign_in_button
+end
+
+Then(/^user fills up email address$/) do
+  on(MacysHomePage).enter_random_email
 end

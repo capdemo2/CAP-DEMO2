@@ -25,17 +25,17 @@
         <tbody>
           <tr>
             <td class="left_align"><a href="features-step_definitions-Registration _rb.html">features/step_definitions/Registration .rb</a></td>
-            <td class='right_align'><tt>40</tt></td>
-            <td class='right_align'><tt>21</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>77.50%</tt></div>
+            <td class='right_align'><tt>44</tt></td>
+            <td class='right_align'><tt>22</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>79.55%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:78px"></div>
-        <div class="uncovered" style="width:22px"></div>
+        <div class="covered" style="width:80px"></div>
+        <div class="uncovered" style="width:20px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>57.14%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>59.09%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:57px"></div>
-        <div class="uncovered" style="width:43px"></div>
+        <div class="covered" style="width:59px"></div>
+        <div class="uncovered" style="width:41px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -53,7 +53,7 @@
         <tr class="marked">
           <td><pre><a name="line2">2</a> Given(/^User navigate to the Macys Home Page$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line3">3</a>   visit MacysHomePage</pre></td>
         </tr>
         <tr class="inferred">
@@ -65,7 +65,7 @@
         <tr class="marked">
           <td><pre><a name="line6">6</a> Then(/^User click on the My Account link$/) do</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line7">7</a>   on(MacysHomePage).click_on_my_account_link</pre></td>
         </tr>
         <tr class="inferred">
@@ -77,7 +77,7 @@
         <tr class="marked">
           <td><pre><a name="line10">10</a> And(/^user clicks on Create account button$/) do</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line11">11</a>   on(MacysHomePage).click_create_btn</pre></td>
         </tr>
         <tr class="inferred">
@@ -89,11 +89,11 @@
         <tr class="marked">
           <td><pre><a name="line14">14</a> Then(/^user fills out all the information to create account$/) do</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line15">15</a>   on(MacysHomePage).enter_profile_info</pre></td>
         </tr>
-        <tr class="uncovered">
-          <td><pre><a name="line16">16</a>   on(MacysHomePage).enter_random_email</pre></td>
+        <tr class="inferred">
+          <td><pre><a name="line16">16</a> </pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line17">17</a> </pre></td>
@@ -140,7 +140,7 @@
         <tr class="marked">
           <td><pre><a name="line31">31</a> Then(/^User click on Sign In link$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line32">32</a>   on(MacysHomePage).click_on_sign_in</pre></td>
         </tr>
         <tr class="inferred">
@@ -152,7 +152,7 @@
         <tr class="marked">
           <td><pre><a name="line35">35</a> And(/^User type invalid credentials$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line36">36</a>   on(MacysHomePage).type_credentials</pre></td>
         </tr>
         <tr class="inferred">
@@ -170,10 +170,22 @@
         <tr class="inferred">
           <td><pre><a name="line41">41</a> end</pre></td>
         </tr>
+        <tr class="inferred">
+          <td><pre><a name="line42">42</a> </pre></td>
+        </tr>
+        <tr class="marked">
+          <td><pre><a name="line43">43</a> Then(/^user fills up email address$/) do</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line44">44</a>   on(MacysHomePage).enter_random_email</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line45">45</a> end</pre></td>
+        </tr>
       </tbody>
     </table>
 
-    <p>Generated on 2016-12-06 23:06:35 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2016-12-08 11:52:33 -0500 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

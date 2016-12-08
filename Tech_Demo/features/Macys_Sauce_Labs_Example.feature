@@ -10,20 +10,20 @@ Feature: Macys Registration Secnarios for Cross Browser and Cross Platform Testi
     Then User click on the My Account link
     And user clicks on Create account button
     Then user fills out all the information to create account
-    And user completes registration
-    Then user verifies that Registration is completed
+#    And user completes registration
+#    Then user verifies that Registration is completed
 
 
 
     Examples:
       |browser|
-      |chrome40\|windows7|
-      |firefox36\|windows81|
+      |chrome41\|osx109|
       |chrome40\|windowsxp|
-      |firefox33\|windows7|
+  #   |chrome40\|windows7|
 #      |ie11\|windows7|
-
- #     |chrome41\|osx109|
+#      |firefox36\|windows81|
+#      |firefox33\|windows7|
+ #
 #      |chrome42\|osx109|
 #      |chrome40\|osx108|
 #      |chrome41\|osx108|
